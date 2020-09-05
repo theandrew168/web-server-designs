@@ -30,6 +30,7 @@ RPS stands for "Requests per Second" and latency is measured in seconds.
 | nonblocking.py | 79.33 | 0.53 | 0.63 | 5.23 | 11.80 |
 | async.py | 82.97 | 0.53 | 0.84 | 7.35 | 12.34 |
 
+Results from existing WSGI servers:
 | Server | RPS | Mean Latency | Mode Latency | Worst Latency | % NGINX (RPS) |
 | --- | --- | --- | --- | --- | --- |
 | NGINX | 672.36 | 0.07 | 0.11 | 0.64 | 100.00 |
